@@ -21,7 +21,7 @@
 
 ## Fragen
 
-Alle Antworten per [Mail](mailto:pascal.knecht@juventus.schule?subject=[Lab]%20Kali%20Setup) mit Betreff `[Lab] Kali Linux` an den Dozenten.
+Alle Antworten per mail mit Betreff `[Lab] Kali Linux` an den Dozenten.
 
 1.  Wie lautet der Login Username?
 
