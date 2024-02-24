@@ -11,21 +11,17 @@
 
 ## Aufgabe
 
-1.  Laden Sie die OVA-Datei `hl-livecd.ova` [hier](https://livecd.hacking-lab.com/largefiles/livecd/daily/hl-livecd.ova) (ca. 7 GB) herunter.
+1.  Laden Sie die OVA-Datei `hl-livecd.ova` [hier](https://livecd.hacking-lab.com/largefiles/kookarai/amd64/readme.txt) (ca. 7 GB) herunter.
 
-2.  Folgen Sie der Installationsanleitung [hier](https://github.com/Hacking-Lab/hl-livecd/blob/master/guides/install-livecd-de.md) und deployen Sie das Live System (ca. 20 GB).
+2.  Folgen Sie der Installationsanleitung [hier](https://github.com/Hacking-Lab/hl-livecd) und deployen Sie das Live System (ca. 20 GB).
 
-3.  Stellen Sie die Netzwerkeinstellung Ihres Netzwerkadapters von `NAT` auf `Bridged Adapter` um, sodass Sie im Kali Linux Gastsystem eine IP Adresse Ihres lokalen DHCP Server erhalten.
-
-    ![Netzwerk Adapter Bridged](img/Virtualbox-Network-Bridge-Adapter-Setting.png)
-
-4.  Lesen Sie die Datei `livecd.(pdf|md)` auf dem Desktop.
+3.  Lesen Sie die https://github.com/Hacking-Lab/hl-livecd/tree/master/guides
 
 5.  Machen Sie sich mit der Live Linux Distribution vertraut, stöbern Sie etwas rum.
 
 ## Fragen
 
-Alle Antworten per [Mail](mailto:pascal.knecht@juventus.schule?subject=[Lab]%20Kali%20Setup) mit Betreff `[Lab] Kali Linux` an den Dozenten.
+Alle Antworten per mail mit Betreff `[Lab] Kali Linux` an den Dozenten.
 
 1.  Wie lautet der Login Username?
 

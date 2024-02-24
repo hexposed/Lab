@@ -121,7 +121,7 @@
 
 ## Fragen
 
-Alle Antworten per [Mail](mailto:pascal.knecht@juventus.schule?subject=[Lab]%20Nmap%20Basics) mit Betreff `[Lab] Nmap Basics` an den Dozenten.
+Alle Antworten per mail mit Betreff `[Lab] Nmap Basics` an den Dozenten.
 
 1.  Nach Aufgabe 3 zeigt Nmap den Port 80 als geschlossen ('closed') an. Wieso?
 
