@@ -41,7 +41,7 @@
 
 ## Fragen
 
-Alle Antworten per [Mail](mailto:pascal.knecht@juventus.schule?subject=[Lab]%20Iptables%20Webserver) mit Betreff `[Lab] Iptables Webserver` an den Dozenten.
+Alle Antworten per mail mit Betreff `[Lab] Iptables Webserver` an den Dozenten.
 
 1.  Begründen Sie Ihre Antworten aus Aufgabe 6 und 7. Berücksichtigen Sie dabei auch den Faktor der zeitlichen Reaktion.
 
