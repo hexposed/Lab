@@ -51,6 +51,6 @@
 
 ## Fragen
 
-Alle Antworten per [Mail](mailto:pascal.knecht@juventus.schule?subject=[Lab]%20Nmap%20Service%20Detection) mit Betreff `[Lab] Nmap Service Detecion` an den Dozenten.
+Alle Antworten per mail mit Betreff `[Lab] Nmap Service Detecion` an den Dozenten.
 
 1.  Gibt es Unterschiede, wenn der _Service Detection Scan_ mit und ohne root Rechten ausgeführt wird? Falls ja, welche?
