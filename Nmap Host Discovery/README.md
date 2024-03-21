@@ -50,8 +50,6 @@ In der Vorlesung wurden die verschiedenen Host Discovery Techniken von Nmap beha
 
 ## Fragen
 
-Alle Antworten per mail mit Betreff `[Lab] Nmap Host Discovery` an den Dozenten.
-
 1.  Wieso nutzt Nmap vier verschiedene Paket-Typen und Scans um festzustellen, ob ein Remote-Host online/erreichbar ist?
 
 2.  Wieso nutzt Nmap für ein Host Discovery im lokalen Netzwerk (Aufgabe 4) andere Pakete als für ein Host Discovery eines Rechners im Internet (Aufgabe 2)?
