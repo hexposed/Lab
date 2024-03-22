@@ -12,11 +12,11 @@ Am Ende dieses Labs sieht die Netzwerkkommunikation wie in folgendem Diagramm au
         |          |
         +-----^----+
               |
-    +---------v-------+                         +------+
-    |                 |  erwartete Verbindung   |      |
-    | Default Gateway <- - - - - - - - - - - - -> Host |
-    |                 |                         |      |
-    +--------^--+-----+                         +-^--+-+
+    +---------v-------+                         +--------+
+    |                 |  erwartete Verbindung   |        |
+    | Default Gateway <- - - - - - - - - - - - -> Centos |
+    |                 |                         |        |
+    +--------^--+-----+                         +-^--+---+
              |  |                                 |  |
              |  |                                 |  |
              |  |                                 |  |
@@ -28,10 +28,10 @@ Am Ende dieses Labs sieht die Netzwerkkommunikation wie in folgendem Diagramm au
              +----------------+         <------------+
                               +---------+
 
--   DG.IP    entspricht der IP  Adresse des Default Gateways
--   DG.MAC   entspricht der MAC Adresse des Default Gateways
--   HOST.IP  entspricht der IP  Adresse des Host Systems
--   HOST.MAC entspricht der MAC Adresse des Host Systems
+-   DG.IP      entspricht der IP  Adresse des Default Gateways
+-   DG.MAC     entspricht der MAC Adresse des Default Gateways
+-   CENTOS.IP  entspricht der IP  Adresse des Host Systems
+-   CENTOS.MAC entspricht der MAC Adresse des Host Systems
 -   KALI.IP  entspricht der IP  Adresse der Kali VM
 -   KALI.MAC entspricht der MAC Adresse der Kali VM
 
@@ -41,9 +41,9 @@ Am Ende dieses Labs sieht die Netzwerkkommunikation wie in folgendem Diagramm au
 
 ## Aufgabe
 
-Alle Konfigurationen betreffen Ihre Kali VM, weder Host noch Default Gateway müssen angepasst werden.
+Alle Konfigurationen betreffen Ihre Kali VM, weder CENTOS noch Default Gateway müssen angepasst werden.
 
-1.  Starten Sie auf Ihrem Host System ein Ping auf `hackingexposed.ch`. Ziel dieses Labs ist es, diese Pings in der Kali VM zu sehen. Prüfen Sie auch Ihre aktuelle ARP Tabelle Ihres Host Systems. Diese könnte etwa so aussehen:
+1.  Starten Sie auf Ihrem Host System ein Ping auf CENTOS(https://www.osboxes.org/centos/#centos-7-1804-vbox, Centos with LEMP). Ziel dieses Labs ist es, diese Pings in der Kali VM zu sehen. Prüfen Sie auch Ihre aktuelle ARP Tabelle Ihres CENTOS und Kali Systems. Diese könnte etwa so aussehen:
 
         arp -n
         Address                  HWtype  HWaddress           Flags Mask            Iface
@@ -73,7 +73,7 @@ Alle Konfigurationen betreffen Ihre Kali VM, weder Host noch Default Gateway mü
 
     ![ARP Pakete nach Spoofing](img/arp-spoofing.png)
 
-    Die ARP Tabelle Ihres Host Systems könnte nun wie folgt aussehen:
+    Die ARP Tabelle Ihres CENTOS Systems könnte nun wie folgt aussehen:
 
         arp -n
         Address                  HWtype  HWaddress           Flags Mask            Iface
@@ -87,7 +87,7 @@ Alle Konfigurationen betreffen Ihre Kali VM, weder Host noch Default Gateway mü
         HOST.IP                  ether   HOST.MAC            C                     eth0
         DG.IP                    ether   DG.MAC              C                     eth0
 
-9.  Öffnen Sie in einem Browser auf Ihrem Host System die Website `http://neverssl.com/`.
+9.  Öffnen Sie in einem Browser auf Ihrem CENTOS System die Website `http://neverssl.com/`.
 
 10. Wenn Sie in Wireshark in Ihrer Kali VM mittels des Display Filters `http` filtern, sehen Sie die HTTP Kommunikation von Ihrem Host System zum Webserver im Internet.
 
@@ -97,9 +97,9 @@ Alle Konfigurationen betreffen Ihre Kali VM, weder Host noch Default Gateway mü
 
     ![ARP Depoisoning](img/arp-depoisoning.png)
 
-12. Prüfen Sie nun die ARP Tabellen in Ihrem Host System und in Kali erneut.
+12. Prüfen Sie nun die ARP Tabellen in Ihrem CENTOS System und in Kali erneut.
 
-    Die ARP Tabelle Ihres Host Systems könnte nun wie folgt aussehen:
+    Die ARP Tabelle Ihres CENTOS Systems könnte nun wie folgt aussehen:
 
         arp -n
         Address                  HWtype  HWaddress           Flags Mask            Iface
@@ -123,8 +123,8 @@ Alle Konfigurationen betreffen Ihre Kali VM, weder Host noch Default Gateway mü
 3.  Rekonstruieren Sie die tatsächlichen IP und MAC Adressen anhand der Screenshots aus diesem Lab. Gegeben ist die IP des Default Gateways und der Kali VM, gesucht sind die Adressen für:
     -   DG.IP    192.168.153.181
     -   DG.MAC   
-    -   HOST.IP  
-    -   HOST.MAC
+    -   CENTOS.IP  
+    -   CENTOS.MAC
     -   KALI.IP  192.168.153.47
     -   KALI.MAC
 
