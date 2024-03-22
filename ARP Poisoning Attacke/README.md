@@ -61,7 +61,7 @@ Alle Konfigurationen betreffen Ihre Kali VM, weder CENTOS noch Default Gateway m
 
 5.  Halten Sie Wireshark im Auge, während Sie _Scan for Hosts_ über das Lupensymbol starten.
 
-6.  Über das Hostsymbol (rechts neben dem Lupensymbol) sollten Sie nun mindestens zwei Einträge haben: DG.IP und HOST.IP. Selektieren Sie DG.IP und fügen Sie diesen Eintrag zur Targetliste 1 mittels des Knopfs _Add to Target 1_ und selektieren Sie HOST.IP und fügen Sie diesen Eintrag zur Targetliste 2 hinzu. Über das Dreipunkte-Menu > Targets > Current targets können Sie Ihre Einstellung verifizieren.
+6.  Über das Hostsymbol (rechts neben dem Lupensymbol) sollten Sie nun mindestens zwei Einträge haben: DG.IP und CENTOS.IP. Selektieren Sie DG.IP und fügen Sie diesen Eintrag zur Targetliste 1 mittels des Knopfs _Add to Target 1_ und selektieren Sie CENTOS.IP und fügen Sie diesen Eintrag zur Targetliste 2 hinzu. Über das Dreipunkte-Menu > Targets > Current targets können Sie Ihre Einstellung verifizieren.
 
 7.  Starten Sie nun zuerst das _Sniffing_ mittels dem Playsymbol. Wie Sie feststellen, geschieht noch nichts in Wireshark.
 
