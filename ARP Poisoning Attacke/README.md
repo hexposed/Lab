@@ -84,7 +84,7 @@ Alle Konfigurationen betreffen Ihre Kali VM, weder CENTOS noch Default Gateway m
 
         arp -n
         Address                  HWtype  HWaddress           Flags Mask            Iface
-        HOST.IP                  ether   HOST.MAC            C                     eth0
+        CENTOS.IP                ether   CENTOS.MAC           C                     eth0
         DG.IP                    ether   DG.MAC              C                     eth0
 
 9.  Öffnen Sie in einem Browser auf Ihrem CENTOS System die Website `http://neverssl.com/`.
@@ -110,7 +110,7 @@ Alle Konfigurationen betreffen Ihre Kali VM, weder CENTOS noch Default Gateway m
 
         arp -n
         Address                  HWtype  HWaddress           Flags Mask            Iface
-        HOST.IP                  ether   HOST.MAC            C                     eth0
+        CENTOS.IP                  ether   CENTOS.MAC            C                     eth0
         DG.IP                    ether   DG.MAC              C                     eth0
 
 ## Fragen
