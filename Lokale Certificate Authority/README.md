@@ -134,8 +134,6 @@
 
 ## Fragen
 
-Alle Antworten per [Mail](mailto:pascal.knecht@juventus.schule?subject=[Lab]%20Lokale%20Certificate%20Authority) mit Betreff `[Lab] Lokale Certificate Authority` an den Dozenten.
-
 1.  Welche Passwörter (ℝ _root_ und 𝕀 _intermediate_ und 𝕊 _server_) mussten Sie zur Entschlüsselung der privaten Schlüssel in Aufgabe 8, 10, 11 und 14 verwenden? Gesucht ist die korrekte Reihenfolge der Mengensymbole.
 
 2.  Am Ende von Aufgabe 15 sehen Sie drei Zertifikate. Welche dieser Zertifikate wurden beim TLS-Verbindungsaufbau vom Server an den Client übermittelt?
